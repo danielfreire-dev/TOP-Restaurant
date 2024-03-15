@@ -1,10 +1,11 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
   entry: {
     main: "./src/index.js",
-  content: },
+  },
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "dist"),
