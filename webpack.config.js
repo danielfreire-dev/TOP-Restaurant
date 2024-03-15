@@ -12,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: "index.html", //maybe "index.[contenthash].html"?
+      filename: "index.html", //maybe "index.[contenthash].html"
       template: "./src/template.html",
       hash: true,
       title: "TOP-Restaurant",

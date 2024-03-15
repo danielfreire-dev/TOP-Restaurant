@@ -1,12 +1,12 @@
-//import { homePage } from "./app/home";
-// import { menu } from "./app/menu";
-// import { location } from "./app/location";
+import { homePage } from "./app/home";
+import { menu } from "./app/menu";
+import { location } from "./app/location";
 import { runtime } from "webpack";
 //alert("Hey there!");
 
-/* let HomePage = new homePage();
+let HomePage = new homePage();
 let Menu = new menu();
-let Location = new location(); */
+let Location = new location();
 
 let homeButton = document.getElementById("home");
 let menuButton = document.getElementById("menu");
