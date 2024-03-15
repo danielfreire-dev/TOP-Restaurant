@@ -1,7 +1,7 @@
 import { homePage } from "./app/home";
 import { menu } from "./app/menu";
 import { location } from "./app/location";
-alert("Hey there!");
+//alert("Hey there!");
 
 let HomePage = new homePage();
 let Menu = new menu();

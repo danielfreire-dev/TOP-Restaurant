@@ -1,4 +1,6 @@
+console.log("Bring da food!");
+
 export function menu() {
   let menuContent = document.getElementById("content");
-  document.menuContent.innerHTML = "Best food ever!!!";
+  menuContent.innerHTML = "Best food ever!!!";
 }
