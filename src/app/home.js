@@ -1,8 +1,8 @@
 console.log("Webpack phone home");
 
-export function homePage() {
+function homePage() {
   let image = document.createElement("img");
   let divContent = document.getElementById("content");
   image.src = "/src/assets/victoria-shes-UC0HZdUitWY-unsplash.jpg";
-  divContent.appendChild(image);
+  document.divContent.appendChild(image);
 }
