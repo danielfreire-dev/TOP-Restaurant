@@ -1,7 +1,7 @@
 /* import homePage from "/src/app/home";
 import menu from "/src/app/menu";
 import location from "/src/app/location"; */
-//alert("Hey there!");
+/* alert("Hey there!"); */
 
 /* let HomePage = new homePage();
 let Menu = new menu();
@@ -12,23 +12,23 @@ let menuButton = document.getElementById("menu");
 let locationButton = document.getElementById("location");
 let contentDiv = document.getElementById("content");
 
-//contentDiv.innerHTML = homePage;
+/* contentDiv.innerHTML = homePage; */
 
 homeButton.addEventListener("click", function (event) {
   event.preventDefault();
   let logoDiv = document.createElement("div");
   logoDiv.className = "logo";
-  // insert Logo
+  /* insert Logo */
   let h1Div = document.createElement("div");
   h1Div.className = "Title";
-  h1Div.appendChild.innerHTML = "<h1>TOP Restaurant</h1>";
+  h1Div.innerHTML = "<h1>TOP Restaurant</h1>";
   let image = document.createElement("img");
   let divContent = document.getElementById("content");
   image.src = "/src/assets/victoria-shes-UC0HZdUitWY-unsplash.jpg";
   image.style.cssText = "width: 80%";
-  divContent.appendChild(image);
+  /* divContent.appendChild(image); */
   let frameDiv = document.createElement("div");
-  //append picture
+  /* append picture */
   let bodyDiv = document.createElement("div");
   bodyDiv.className = "body";
   bodyDiv.innerHTML = `<p>Welcome to Valhalla's Feast, where the spirit of the Viking era comes alive through our culinary delights! Nestled in the heart of [insert location], our restaurant offers a unique and immersive dining experience inspired by the legendary Norse warriors. Step into a world where long tables are adorned with hearty feasts, mead flows freely, and the ambiance resonates with the echoes of ancient sagas.</p>
@@ -42,10 +42,10 @@ menuButton.addEventListener("click", function (event) {
   contentDiv.innerHTML = "Best food ever!!!";
   let logoDiv = document.createElement("div");
   logoDiv.className = "logo";
-  // insert Logo
+  /* insert Logo */
   let h1Div = document.createElement("div");
   h1Div.className = "title";
-  h1Div.appendChild.innerHTML = "<h1>TOP Restaurant</h1>";
+  h1Div.innerHTML = "<h1>TOP Restaurant</h1>";
   let menuDiv = document.createElement("div");
   menuDiv.className = "menu";
   let menuTitle = document.createElement("h1");
