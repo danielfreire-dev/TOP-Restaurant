@@ -18,4 +18,46 @@ module.exports = {
       title: "TOP-Restaurant",
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          {
+            loader: "css-loader",
+            options: {
+              modules: true,
+            },
+          },
+          ,
+        ],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+        options: {
+          sources: {
+            list: [
+              // All default supported tags and attributes
+              {
+                tag: "img",
+                attribute: "data-src",
+                type: "src",
+              },
+              {
+                tag: "img",
+                attribute: "data-srcset",
+                type: "srcset",
+              },
+            ],
+          },
+        },
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
 };
