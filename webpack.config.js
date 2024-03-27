@@ -4,7 +4,11 @@ const webpack = require("webpack");
 
 module.exports = {
   entry: {
-    main: "./src/index.js",
+    main: "/src/index.js",
+    home: "/src/app/home.js",
+    menu: "/src/app/menu.js",
+    location: "/src/app/location.js",
+    header: "/src/app/header.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -16,6 +20,9 @@ module.exports = {
       template: "./src/template.html",
       hash: true,
       title: "TOP-Restaurant",
+      meta: {
+        author: "Daniel Freire",
+      },
     }),
   ],
   module: {

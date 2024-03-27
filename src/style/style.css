@@ -5,3 +5,10 @@ ul li {
 #logo {
   width: 20%;
 }
+
+body {
+  background-color: palegoldenrod;
+}
+.title {
+  display: flex;
+}
