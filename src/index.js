@@ -2,7 +2,7 @@ import { homePage } from "/src/app/home";
 import { menu } from "/src/app/menu";
 import { location } from "/src/app/location";
 import logo from "/src/assets/logo.png";
-import "/src/style/style.css";
+import css from "/src/style/style.css";
 
 /* alert("Hey there!"); */
 

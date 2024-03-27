@@ -9,7 +9,7 @@ function header() {
 
   let logoHeader = document.createElement("img");
   logoHeader.setAttribute("id", "logo");
-  logoHeader.style.width = "30px";
+  /* logoHeader.style.width = "30px"; */
   logoHeader.src = logo;
 
   h1Div.appendChild(logoHeader);

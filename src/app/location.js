@@ -1,5 +1,6 @@
 import { header } from "/src/app/header";
 import logo from "/src/assets/logo.png";
+import "/src/style/style.css";
 
 /* console.log("I will find you and I will visit you!"); */
 

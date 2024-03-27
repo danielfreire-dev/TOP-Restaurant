@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -24,19 +25,15 @@ module.exports = {
         author: "Daniel Freire",
       },
     }),
+    new CleanWebpackPlugin(),
   ],
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.s?css$/,
         use: [
-          { loader: "style-loader" },
-          {
-            loader: "css-loader",
-            options: {
-              modules: true,
-            },
-          },
+          "style-loader", //2. Inject styles into DOM
+          "css-loader", //1. Turns css into commonjs
           ,
         ],
       },

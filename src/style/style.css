@@ -3,12 +3,16 @@ ul li {
 }
 
 #logo {
-  width: 20%;
+  width: 5%;
+  height: max-content;
 }
 
-body {
+#content {
   background-color: palegoldenrod;
 }
 .title {
+  width: fit-content;
+  margin-left: 50%;
+  margin-right: 50%;
   display: flex;
 }
