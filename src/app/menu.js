@@ -84,7 +84,7 @@ function menu() {
    </ul>
 </ol>
 `;
-  contentDiv.appendChild(contentHTML);
+  menuDiv.appendChild(contentHTML);
 }
 
 export { menu };

@@ -15,16 +15,5 @@ function location() {
     "<p>Located in the Heart of Viking land. Only true Vikings are allowed to learn our ture location.</p>";
   contentDiv.appendChild(locationDiv);
 }
-/* locationButton.addEventListener("click", function (event) {
-  event.preventDefault();
-  contentDiv.innerHTML = "";
-
-  header();
-
-  let locationDiv = document.createElement("div");
-  locationDiv.innerHTML =
-    "<p>Located in the Heart of Viking land. Only true Vikings are allowed to learn our ture location.</p>";
-  contentDiv.appendChild(locationDiv);
-}); */
 
 export { location };

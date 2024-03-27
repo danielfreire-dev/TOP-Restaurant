@@ -1,18 +1,29 @@
+body {
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: palegoldenrod;
+}
 ul li {
   list-style-type: "- ";
 }
 
 #logo {
-  width: 5%;
+  min-width: 5%;
+  max-width: 6%;
   height: max-content;
 }
 
 #content {
-  background-color: palegoldenrod;
 }
 .title {
-  width: fit-content;
-  margin-left: 50%;
-  margin-right: 50%;
+  height: 20vh;
+
+  padding-top: 1%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
 }
