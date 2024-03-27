@@ -27,3 +27,7 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.menu {
+  background-color: antiquewhite;
+}
